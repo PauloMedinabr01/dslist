@@ -16,7 +16,7 @@ public class Game {
 	private long id;
 	private String title;
 
-	@Column(name = "game_year") // year é uma palavra resrvada do SQL, @Column renomeia o campo mo banco de
+	@Column(name = "game_year") // year é uma palavra reservada do SQL, @Column renomeia o campo mo banco de
 								// dados
 	private Integer year;
 	private String genre;
